@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dacoid Assignment</title>
+</head>
+
+<body>
+
+    <!-- Main Conatiner -->
+    <div class="container max-w-[375px] h-[800px] bg-[#FCFCFC] mx-auto border-[#FCFCFC] rounded-lg">
+
+        <!-- Status Bar-->
+        <div class="max-w-[375px] max-h-[44px] sticky z-50">
+            <img src="./Asset/Status.png" alt="Status">
+        </div>
+
+        <!-- Android Large - 1 -->
+        <div class="relative max-w-[375px] max-h-[756px] page1">
+
+            <!-- Skip Button -->
+            <div class="absolute skip1 cursor-pointer montserrat text-[#9FB2FF] underline leading-[19.5px] max-w-[36px] max-h-[20px] top-[44px] left-[323px] text-[16px] font-[500]">
+                Skip
+            </div>
+
+            <!-- Hero Image -->
+            <div class="top-[132px] left-[46px] absolute">
+                <img 
+                    src="./Asset/Hero1.jpg" 
+                    alt="hero-img" 
+                    width="282px"
+                    height="282px"
+                />
+            </div>
+
+            <!-- Text Part -->
+
+                <!-- Heading -->
+                <div class="absolute montserrat min-w-[160px] h-[24px] text-[#2C2B2B] top-[499px] left-[16px] leading-[24.38px] text-[20px] font-[600]">
+                    Track Your Goal
+                </div>
+
+                <!-- Paragraph -->
+                <div class="absolute montserrat max-w-[343px] h-[60px] text-[#787878] top-[538px] left-[16px] leading-[19.5px] text-[16px] font-[500]">
+                    Don’t worry if you have trouble determining your goals, We can help you determine your goals and track your goals
+                </div>
+
+
+            <!-- Next Button -->
+            <div class="absolute next1 cursor-pointer top-[696px] left-[299px] border border-[#89A1FF]">
+                <img 
+                    src="./Asset/Group 1.jpg" 
+                    alt="next-btn"
+                    width="60px"
+                    height="60px"
+                />
+            </div>
+
+        </div>
+
+        <!-- Android Large - 2 -->
+        <div class="relative max-w-[375px] max-h-[756px] page2">
+
+            <!-- Skip Button -->
+            <div class="absolute skip2 cursor-pointer montserrat text-[#9FB2FF] underline leading-[19.5px] max-w-[36px] max-h-[20px] top-[44px] left-[323px] text-[16px] font-[500]">
+                Skip
+            </div>
+
+            <!-- Hero Image -->
+            <div class="top-[156px] left-[11px] absolute">
+                <img 
+                    src="./Asset/Hero2.jpg" 
+                    alt="hero-img2" 
+                    width="352px"
+                    height="234.61px"
+                />
+            </div>
+
+            <!-- Text Container -->
+            <!-- <div> -->
+
+                <!-- Heading -->
+                <div class="absolute montserrat min-w-[93px] h-[24px] text-[#2C2B2B] top-[499px] left-[16px] leading-[24.38px] text-[20px] font-[600]">
+                    Get Burn
+                </div>
+
+                <!-- Paragraph -->
+                <div class="absolute montserrat max-w-[343px] h-[60px] text-[#787878] top-[538px] left-[16px] leading-[19.5px] text-[16px] font-[500]">
+                    Let’s keep burning to achieve your goals, it hurts only temporarily, if you give up now you will be in pain forever
+                </div>
+
+            <!-- </div> -->
+
+            <!-- Next Button -->
+            <div class="absolute next2 cursor-pointer top-[696px] left-[299px] border border-[#89A1FF]">
+                <img 
+                    src="./Asset/icon2.jpg" 
+                    alt="next-btn"
+                    width="60px"
+                    height="60px"
+                />
+            </div>
+
+        </div>
+
+        <!-- Android Large - 4 -->
+        <div class="relative max-w-[375px] max-h-[756px] page3">
+
+            <!-- Heading -->
+            <div class="roboto absolute max-w-[163px] max-h-[23px] top-[68px] left-[16px] text-[20px] font-[600] leading-[23.44px]">
+                Create an account
+            </div>
+
+            <!-- form Conatiner -->
+            <form class="flex flex-col montserrat">
+                
+                <!-- Name -->
+                <input 
+                    type="text" 
+                    placeholder="First Name" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[135px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+                
+
+                <!-- Last Name -->
+                <input 
+                    type="text" 
+                    placeholder="Last Name" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[209px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+
+                <!-- E-mail -->
+                <input 
+                    type="text" 
+                    placeholder="Email" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[283px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+
+                <!-- Password -->
+                <input 
+                    type="password"
+                    placeholder="Password" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[357px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+            </form>
+
+            <div>
+                <input type="checkbox" id="agree" name="agree" class="absolute h-[22px] w-[22px] left-[16px] top-[431px]">
+                <label for="agree" 
+                    class="absolute text-gray-700 montserrat min-w-[313px] min-h-[21px] left-[46px] top-[431px] text-[12px] font-[500] leading-[21.35px]">
+                    By proceeding, I agree to all 
+                    <a href="#" class="text-blue-500 underline">T&C</a> and 
+                    <a href="#" class="text-blue-500 underline">Privacy Policy</a>
+                </label>
+            </div>
+
+            <footer>
+
+                <!-- Create Button -->
+                <button class="create absolute montserrat py-3 min-w-[343px] min-h-[50px] left-[16px] top-[574px]  btn border rounded-[12px] text-[16px] font-[600] text-center leading-[19.5px]  text-[#FFFFFF]">
+                    Create an Account
+                </button>
+
+
+                    <div class="flex items-center justify-center top-[650px] left-[15px] absolute ">
+                        <div class="border-t bg-gray-500 min-w-[155px]"></div>
+                        <div class="montserrat mx-4 text-black">Or</div>
+                        <div class="border-b min-w-[155px] bg-gray-500 "></div>
+                    </div>  
+
+                   
+                    <div class="flex flex-row gap-5 top-[686px] absolute left-[135px]">
+                        <img src="./Asset/google.jpg" alt="goggle-icon" class="border border-gray-500 rounded-lg p-3">
+                        <img src="./Asset/fb.jpg" alt="fb-icon" class="border border-gray-500 rounded-lg p-3 px-4">
+                    </div>
+                <pre class="montserrat text-xs text-center font-medium left-[90px] top-[738px] absolute">Already have an account?<span class="login cursor-pointer underline text-blue-400">Login</span></pre>
+            </footer>
+        </div>
+
+        <!-- Android Large - 5 -->
+        <div class="relative max-w-[375px] max-h-[756px] page4">
+
+            <!-- Heading -->
+            <div class="roboto absolute max-w-[163px] max-h-[23px] top-[68px] left-[16px] text-[20px] font-[600] leading-[23.44px]">
+                Welcome Back
+            </div>
+
+            <!-- form Conatiner -->
+            <form class="flex flex-col montserrat">
+
+                <!-- E-mail -->
+                <input 
+                    type="text" 
+                    placeholder="Email" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[135px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+
+                <!-- Password -->
+                <input 
+                    type="password"
+                    placeholder="Password" 
+                    class="px-5 absolute min-w-[343px] min-h-[50px] top-[209px] left-[16px] border rounded-[12px] bg-[#F1F1F1]"
+                >
+                <img 
+                    src="./Asset/eye-off.jpg" 
+                    alt="hide-password"
+                    width="16px"
+                    height="16px"
+                    class=" absolute top-[226px] left-[327px] z-10 cursor-pointer"
+                />
+
+            </form>
+
+            <p class="absolute underline text-[#7F7F7F] montserrat min-w-[140px] min-h-[15px] left-[21px] top-[269px] text-[12px] font-[500] leading-[21.35px]">
+                Forgot your password?
+            </p>
+
+            <footer>
+
+                <!-- Sign In Button -->
+                <button class="signIn absolute montserrat py-3 min-w-[343px] min-h-[50px] left-[16px] top-[574px]  btn border rounded-[12px] text-[16px] font-[600] text-center leading-[19.5px]  text-[#FFFFFF]">
+                    Sign In
+                </button>
+
+
+                    <div class="flex items-center justify-center top-[650px] left-[15px] absolute ">
+                        <div class="border-t bg-gray-500 min-w-[155px]"></div>
+                        <div class="montserrat mx-4 text-black">Or</div>
+                        <div class="border-b min-w-[155px] bg-gray-500 "></div>
+                    </div>  
+
+                   
+                    <div class="flex flex-row gap-5 top-[686px] absolute left-[135px]">
+                        <img src="./Asset/google.jpg" alt="goggle-icon" class="border border-gray-500 rounded-lg p-3">
+                        <img src="./Asset/fb.jpg" alt="fb-icon" class="border border-gray-500 rounded-lg p-3 px-4">
+                    </div>
+                <pre class="montserrat text-xs text-center font-medium left-[47px] top-[738px] absolute">Don’t have an account yet?<span class="underline text-blue-400 cursor-pointer createAc">Create an account</span></pre>
+            
+            </footer>
+        </div>
+
+        <!-- Android Large - 6 -->
+        <div class="relative max-w-[375px] max-h-[756px] page5 montserrat">
+
+            <h1 class="absolute top-[60px] left-[78px] text-black font-[600] text-[20px] leading-[24.38px]">
+                What are your goals?
+            </h1>
+
+            <!-- form Conatiner -->
+            <form class="flex flex-col montserrat">
+                
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[135px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    Weight Loss <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[201px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    Muscle Gain <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[267px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    Flexibility and Mobility <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[333px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    General Fitness <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[399px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    Event - specific training <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+                <div class="px-5 flex items-center justify-between font-[600] text-[12px] leading-[14.63px] absolute min-w-[343px] min-h-[50px] top-[465px] left-[16px] border rounded-[12px] bg-[#F1F1F1]">
+                    Mindfulness and Mental Health <input type="checkbox" class="h-[22px] w-[22px]">
+                </div>
+
+            </form>
+
+            <!-- Confirm Button -->
+            <button class="confirm absolute montserrat py-3 min-w-[343px] min-h-[50px] left-[16px] top-[665px] hover:underline btn border rounded-[12px] text-[16px] font-[600] text-center leading-[19.5px]  text-[#FFFFFF]">
+                Confirm
+            </button>
+
+        </div>
+
+        <!-- Android Large - 8 -->
+        <div class="relative max-w-[375px] max-h-[800px] page6 montserrat">
+
+            <!-- header -->
+            <div class="pt-[50px] top-[50px] left-[101px] flex ">
+                <img 
+                    src="./Asset/chevron-left.jpg" 
+                    alt="back-go-icon"
+                    width="20px"
+                    height="5px"
+                    class="bg-gray-100 mx-[15px] back"
+                />
+                <div class="flex justify-center w-full">
+                    <div class="text-xl text-black text-center font-semibold mr-8">Workout Tracker</div>
+                </div>
+            </div>
+
+            <!-- Chart Section -->
+            <div class="flex flex-col relative mt-8">
+                <div class="absolute translate-x-[143px] flex flex-col items-center">
+                    <div class="text-xs mon">Good job</div>
+                    <div class="text-xs text-gray-500 font-bold">i</div>
+                </div>
+                <div class="absolute translate-x-[236px] flex flex-col items-center">
+                    <div class="text-xs">less then 320cal</div>
+                    <div class="text-xs text-gray-500 font-bold">i</div>
+                </div>
+                <img src="./Asset/chart.jpg" alt="chart" class="px-4 mt-8 chart">
+            </div>
+
+            <img src="./Asset/Frame 17.jpg" alt="" class="px-4 mt-6 mb-9">
+
+            <div class="flex flex-row justify-between mt-12 px-4">
+                <div class="text-base text-black font-semibold">Upcoming Workout</div>
+                <div class="text-xs text-gray-500 font-medium cursor-pointer">See more</div>
+            </div>
+
+            <!-- Options -->
+            <div class="flex flex-col px-4">
+
+                <!-- First Selector -->
+                <div class="flex flex-row justify-between shadow-lg rounded-xl px-4 py-3 my-4">
+                    <div class="flex flex-row ">
+                        <img src="./Asset/Ellipse 53.jpg" alt="dead-lift" class="borde">
+                        <div class="flex flex-col pl-3">
+                            <div class="text-xs font-medium mt-1">Full Body Workout</div>
+                            <div class="text-[10px] text-gray-500 mt-2">Today 3pm</div>
+                        </div>
+                    </div>
+                    <img src="./Asset/Toggle.jpg" alt="Toggle" class="py-4">
+                </div>
+
+                <!-- Second Selector -->
+                <div class="flex flex-row justify-between shadow-lg rounded-xl px-4 py-3">
+                    <div class="flex flex-row ">
+                        <img src="./Asset/Ellipse 54.jpg" alt="yoga">
+                        <div class="flex flex-col pl-3">
+                            <div class="text-xs font-medium mt-1">Upper Body Workout</div>
+                            <div class="text-[10px] text-gray-500 mt-2">4 Feb, 3:30 pm</div>
+                        </div>
+                    </div>
+                    <img src="./Asset/Toggle.jpg" alt="Toggle" class="py-4">
+                </div>
+
+            </div>
+
+            <div class="text-base text-black font-semibold my-4 px-4">What Do You Want to Train</div>
+            <div class="flex flex-row justify-between bg-blue-300 bg-opacity-60 rounded-xl mx-4 px-5 pt-4 pb-4 mb-20">
+                <div class="">
+                    <div class="text-base font-medium">Full Body Workout</div>
+                    <div class="text-[10px] font-medium">Arms</div>
+                    <div class="text-[10px] font-medium">Chest</div>
+                </div>
+                <img src="./Asset/Ellipse 55.jpg" width="100" height="100" alt="gym" class="bg-transparent">
+            </div>
+
+            <!-- Nav Area -->
+            <div class="fixed mt-8  shadow-xl rounded-md bottom-0 bg-white w-96 p-4">
+                <img src="./Asset/search.jpg" class="absolute -top-1/2 left-36 bg-none" alt="search">
+                <img src="./Asset/nav.jpg" alt="nav " >
+            </div>
+        </div>
+
+        <!-- Android Large - 9 -->
+        <div class="relative max-w-[375px] max-h-[756px] page7 montserrat">
+            
+            <!-- header -->
+            <div class="pt-[50px]  flex ">
+                <img 
+                    src="./Asset/chevron-left.jpg" 
+                    alt="back-go-icon"
+                    width="20px"
+                    height="5px"
+                    class="bg-gray-100 mx-[15px] goback"
+                />
+                <div class="flex justify-center w-full">
+                    <div class="text-xl text-black text-center font-semibold mr-8">Workout Schedule</div>
+                </div>
+            </div>
+
+            <div class="flex flex-row justify-center items-center mb-3">
+                <div class="p-2"><img src="./Asset/Vectorleft.png" alt="back" class="h-2 w-2"></div>
+                <div class="text-black text-xs font-semibold text-center">Feb 2024</div>
+                <div class="p-2"><img src="./Asset/Vectorright.png" alt="back" class="h-2 w-2"></div>
+            </div>
+
+            <img src="./Asset/Calendar.jpg" alt="Calendar">
+
+            <div class="divide-y-[1.5px] divide-gray-500 my-5 pb-10">
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">06:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold relative">07:00 AM
+                    <div class="absolute text-xs font-semibold top-[23px] right-5 text-white bg-gradient-to-r from-pink-200 to-purple-300 rounded-3xl py-2 px-4">Ab Workout, 7:30am</div>
+                </div>
+
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">08:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold relative">09:00 AM
+                    <div class="w-[6px] h-[6px] left-2 p-[2px] -bottom-[3px] rounded-full absolute bg-blue-500"></div>
+                    <div class="absolute w-[330px] left-[0.6rem] -bottom-[1px] h-[1.3px] bg-blue-500 z-10"></div>
+                    <div class="absolute text-xs font-semibold -bottom-[1px] right-[80px] text-white bg-gradient-to-r from-pink-200 to-purple-300 rounded-3xl py-1 px-4">
+                        Upperbody Workout, 9am
+                    </div>
+                </div>
+
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">10:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">11:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">12:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">01:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold relative">02:00 AM
+                    <div class="absolute text-xs font-semibold bottom-[6px] right-[75px] text-gray-700 bg-gray-100 rounded-3xl py-2 px-4">
+                        Lowerbody Workout, 3pm</div>
+                </div>
+
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold relative flex items-center">03:00 AM
+                    <div class="absolute top-2 right-5 bg-gradient-to-r from-pink-200 to-purple-300 rounded-full p-6">
+                        <img src="./Asset/+.png" alt="+" class="w-5 h-5">
+                    </div>
+                </div>
+
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">04:00 AM</div>
+                <div class="py-3 px-6 text-xs text-gray-800 font-semibold">05:00 AM</div>
+            </div>
+            <div class="fixed mt-8  shadow-xl rounded-md bottom-0 bg-white w-96 p-4">
+                <img src="./Asset/search.jpg" class="absolute -top-1/2 left-36" alt="search">
+                <img src="./Asset/nav.jpg" alt="nav">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

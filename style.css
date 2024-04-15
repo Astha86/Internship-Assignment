@@ -1,0 +1,67 @@
+.page1{
+    display: none;
+}
+
+.page1.active{
+    display: flex;
+}
+
+.page2{
+    display: none;
+}
+
+.page2.active{
+    display: flex;
+}
+
+.page3{
+    display: none;
+}
+
+.page3.active{
+    display: flex;
+}
+
+.page4{
+    display: none;
+}
+
+.page4.active{
+    display: flex;
+}
+
+.page5{
+    display: none;
+}
+
+.page5.active{
+    display: flex;
+}
+
+.page6{
+    display: none;
+}
+
+.page6.active{
+    display: contents;
+}
+
+.page7{
+    display: none;
+}
+
+.page7.active{
+    display: contents;
+}
+
+.btn{
+    background: linear-gradient(270deg, #7B91FF 0%, #95BEFF 100%);
+}
+
+.montserrat{
+    font-family: "montserrat";
+}         
+
+.roboto{
+    font-family: "Roboto";
+}
